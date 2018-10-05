@@ -37,7 +37,9 @@
                     'tpl' => '@INLINE <li[[+classes]]><a href="[[+link]]" [[+attributes]]>[[+menutitle]]</a>[[+wrapper]]</li>',
                     'tplOuter' => '@INLINE <ul[[+classes]]>[[+wrapper]]</ul>',
                     'parentClass' => 'tree',
-                    'levelClass' => 'level-2'
+                    'levelClass' => 'level-2',
+                    'resources' => '-2,-18',
+                    'level' => '1'
                     ]}
 
                 </div>
@@ -105,22 +107,22 @@
             </div>
         </div>
         <div class="site_header_in">
-            <div class="site_l_block"><a class="sn_logo" href="magazin.html"><img src="296883_2176.png" alt=""></a>
+            <div class="site_l_block"><a class="sn_logo" href="/"><img src="296883_2176.png" alt=""></a>
                 <div class="site_l_wrap_in">
                     <div class="site_desc"><a href="magazin.html">Быстрая доставка еды по г. Якутску</a></div>
                 </div>
             </div>
             <div class="site_r_block  clear-self">
                 <div class="top_ed_bl">
-                    <div class="top_bl_item"><a href="dostavka.html"><span>Доставка</a></span></div>
-                    <div class="top_bl_item"><a href="oplata.html"><span>Оплата</a></span></div>
-                    <div class="top_bl_item"><a href="aktsii.html"><span>Скидки и акции</a></span></div>
+                    <div class="top_bl_item"><a href="{$_modx->makeUrl(5)}"><span>Доставка</a></span></div>
+                    <div class="top_bl_item"><a href="{$_modx->makeUrl(18)}"><span>Оплата</a></span></div>
+                    <div class="top_bl_item"><a href="{$_modx->makeUrl(16)}"><span>Скидки и акции</a></span></div>
                 </div>
                 <div class="top_contacts_bl">
                     <div class="top_contacts_in">
-                        <div class="site_address">г. Якутск</div>
+                        <div class="site_address">[[++city]]</div>
                         <div class="site_phones">
-                            <div><a href="tel:25-44-99">25-44-99</a></div>
+                            <div><a href="tel:[[++phone]]">[[++phone]]</a></div>
                         </div>
                     </div>
                 </div>
@@ -129,9 +131,9 @@
         <div class="mobile_top_block">
             <div class="mobile_top_bl_in">
                 <div class="top_ed_bl">
-                    <div class="top_bl_item"><a href="dostavka.html"><span>Доставка</a></span></div>
-                    <div class="top_bl_item"><a href="oplata.html"><span>Оплата</a></span></div>
-                    <div class="top_bl_item"><a href="aktsii.html"><span>Скидки и акции</a></span></div>
+                    <div class="top_bl_item"><a href="{$_modx->makeUrl(5)}"><span>Доставка</a></span></div>
+                    <div class="top_bl_item"><a href="{$_modx->makeUrl(18)}"><span>Оплата</a></span></div>
+                    <div class="top_bl_item"><a href="{$_modx->makeUrl(16)}"><span>Скидки и акции</a></span></div>
                 </div>
                 <div class="top_edit_block_link"><a href="http://jonka.ru/magazin/product/pitstsa-ovoshchnaya">Хит
                         недели</a></div>

@@ -554,72 +554,58 @@
 
 
             </div>
-        </main> <!-- .site-main -->
-        <div class="edit_bl_wrapper">
-            <div class="edit_bl_wrap">
-                <div class="edit_text_wr">
-                    <div class="edit_text_in"><a href="http://jonka.ru/magazin/folder/fast-fud" class="edit_link"></a>
-                        <div class="edit_text_title"><span>Внимание акция!</span></div>
-                        <div class="edit_text">Закажи любой ФАСТ-ФУД и получи в подарок кусочки картофеля, обжаренного в
-                            большом количестве раскалённого растительного масла (фритюре).
-                        </div>
-                    </div>
-                </div>
-                <div class="edit_pic"><a href="http://jonka.ru/magazin/folder/fast-fud"
-                                         style="background: url(edit_block_picture.jpg) 0 0 /cover no-repeat;"></a>
-                </div>
-            </div>
-        </div>
-        <div class="ed_bl2_wrapper">
-            <div class="ed_bl2_wrap">
-                <div class="text_bl_wrap">
-                    <div class="text_bl_in">
-                        <div class="text_bl_title">Немного о нас</div>
-                        <div class="text_bl_text"><p>На работу и домой. В любую точку города с 11.00 до 23.00 доставим&nbsp;только
-                                самые вкусные блюда. Огромный ассортимент, приемлемые цены. Все это о нашей
-                                компании.</p>
+        </main>
 
-                            <p>Хотите побаловать себя изысканной японской кухней? Нет времени, а хочется перекусить?
-                                Хотите порадовать друзей или коллег? Заказывайте блюда у нас. Курьер будет у Ваших
-                                дверей в течение получаса.</p>
+        <!-- <div class="ed_bl2_wrapper">
+             <div class="ed_bl2_wrap">
+                 <div class="text_bl_wrap">
+                     <div class="text_bl_in">
+                         <div class="text_bl_title">Немного о нас</div>
+                         <div class="text_bl_text"><p>На работу и домой. В любую точку города с 11.00 до 23.00 доставим&nbsp;только
+                                 самые вкусные блюда. Огромный ассортимент, приемлемые цены. Все это о нашей
+                                 компании.</p>
 
-                            <p>У нас Вы найдете все самое свежее, вкусное, аппетитное. Среди предлагаемых нами яств:</p>
+                             <p>Хотите побаловать себя изысканной японской кухней? Нет времени, а хочется перекусить?
+                                 Хотите порадовать друзей или коллег? Заказывайте блюда у нас. Курьер будет у Ваших
+                                 дверей в течение получаса.</p>
 
-                            <ul>
-                                <li>Суши и роллы. У нас есть как целый каталог готовых сетов, так и возможность
-                                    самостоятельно сформировать индивидуальный сет.
-                                </li>
-                                <li>Пиццы. Огромный выбор: от экзотических пицц и пицц с морепродуктами до
-                                    вегетарианских.
-                                </li>
-                                <li>Салаты. Разных видов, приготовленные из самых свежих продуктов</li>
-                                <li>Напитки - соки, морсы, газированные напитки и многое другое.&nbsp;</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="ed_bl3_wrap">
-                    <div class="ed_adv_block">
-                        <div class="ed_adv_title">Бесплатная доставка</div>
-                        <div class="ad_adv_body">
-                            <div class="ed_adv_item">Вы делаете заказ с 11.00 до 23.00</div>
-                            <div class="ed_adv_item">Мы отбираем свежие и качественные продукты</div>
-                            <div class="ed_adv_item">Заказ готовится за 15-20 минут</div>
-                        </div>
-                    </div>
-                    <div class="ed_pic_block">
-                        <div class="ed_pic" style="background: url(adv_picture.jpg) 0 0 /cover no-repeat;"></div>
-                        <div class="ed_pic_inner">
-                            <div class="ed_phones">
-                                <div class="ed_phones_title">Звоните!</div>
-                                <div class="tel"><a href="tel:8 (800) 550-99-49">8 (800) 550-99-49</a></div>
-                            </div>
-                            <div class="ed_delivery">Быстрая доставка по г. Якутску</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                             <p>У нас Вы найдете все самое свежее, вкусное, аппетитное. Среди предлагаемых нами яств:</p>
+
+                             <ul>
+                                 <li>Суши и роллы. У нас есть как целый каталог готовых сетов, так и возможность
+                                     самостоятельно сформировать индивидуальный сет.
+                                 </li>
+                                 <li>Пиццы. Огромный выбор: от экзотических пицц и пицц с морепродуктами до
+                                     вегетарианских.
+                                 </li>
+                                 <li>Салаты. Разных видов, приготовленные из самых свежих продуктов</li>
+                                 <li>Напитки - соки, морсы, газированные напитки и многое другое.&nbsp;</li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="ed_bl3_wrap">
+                     <div class="ed_adv_block">
+                         <div class="ed_adv_title">Бесплатная доставка</div>
+                         <div class="ad_adv_body">
+                             <div class="ed_adv_item">Вы делаете заказ с 11.00 до 23.00</div>
+                             <div class="ed_adv_item">Мы отбираем свежие и качественные продукты</div>
+                             <div class="ed_adv_item">Заказ готовится за 15-20 минут</div>
+                         </div>
+                     </div>
+                     <div class="ed_pic_block">
+                         <div class="ed_pic" style="background: url(adv_picture.jpg) 0 0 /cover no-repeat;"></div>
+                         <div class="ed_pic_inner">
+                             <div class="ed_phones">
+                                 <div class="ed_phones_title">Звоните!</div>
+                                 <div class="tel"><a href="tel:8 (800) 550-99-49">8 (800) 550-99-49</a></div>
+                             </div>
+                             <div class="ed_delivery">Быстрая доставка по г. Якутску</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>  -->
     </div>
 
 {/block}

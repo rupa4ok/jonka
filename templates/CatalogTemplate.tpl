@@ -4,14 +4,14 @@
     <div class="site_container">
         <main role="main" class="site_main">
             <div class="site_main_inner">
-                <div class="site-path"><a href="magazin.html">Главная</a> <span></span> Роллы</div>
+                <!--<div class="site-path"><a href="magazin.html">Главная</a> <span></span> Роллы</div>-->
                 <h1>Роллы</h1>
                 <div class="shop2-cookies-disabled shop2-warning hide"></div>
 
 
-                <div class="shop_sorting_panel clear-self">
+                <!--<div class="shop_sorting_panel clear-self">
 
-                    <!--<div class="sort_bl_wr sorting">
+                    <div class="sort_bl_wr sorting">
                         <div class="sorting_in">
                             <div class="sort_bl_title">
                                 Сортировать:
@@ -33,7 +33,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
 
                     <div class="view-shop2">
                         <div class="view-shop-wrap">
@@ -49,7 +49,7 @@
                     <div class="filter_bl_wr">
                         <div class="filter_bg"></div>
                         <div class="filter_mobile_btn"></div>
-                        <!--<div class="filter_block_top">
+                        <div class="filter_block_top">
                             <div class="filter_block_title">Фильтр</div>
                             <div class="filter_close"></div>
                             <form action="rolly-i-sushi.html#" class="shop2-filter">
@@ -161,9 +161,9 @@
                                        class="shop2-btn filter_reset"><span>Сбросить</span></a>
                                 </div>
                             </form>
-                        </div>-->
+                        </div>
                     </div>
-                </div>
+                </div>-->
 
                 <div class="prod_list_wrap">
                     <div class="product-list">

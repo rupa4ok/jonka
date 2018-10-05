@@ -1,17 +1,22 @@
 <footer role="contentinfo" class="site_footer">
-    <div class="map_bl_wrapper">
-        <div class="map_block">
-            <div class="map" id="map">
-                <div id="myMap" style="height: 100%;"></div>
+    {set $id = $_modx->resource.id}
+    {if $id == '1'}
+    {else}
+        <div class="map_bl_wrapper">
+            <div class="map_block">
+                <div class="map" id="map">
+                    <div id="myMap" style="height: 100%;"></div>
+                </div>
+            </div>
+            <div class="map_bl_wrap">
+                <div class="map_contacts">
+                    <div class="map_contacts_title">Наш адрес</div>
+                    <div class="map_contacts_address">Россия, 125040, г. Якутск, Пушкина 23</div>
+                </div>
             </div>
         </div>
-        <div class="map_bl_wrap">
-            <div class="map_contacts">
-                <div class="map_contacts_title">Наш адрес</div>
-                <div class="map_contacts_address">Россия, 125040, г. Якутск, Пушкина 23</div>
-            </div>
-        </div>
-    </div>
+    {/if}
+
     <div class="site_footer_inner_wr">
         <div class="site_footer_inner">
             <div class="left_menu_wr">

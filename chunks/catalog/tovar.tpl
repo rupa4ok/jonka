@@ -10,7 +10,6 @@
         <div class="product-label">
         </div>
 
-        <a href="{$id|url}">
         <div class="product_image" style="background-image: url(
         {if $thumb}
                 {$thumb}
@@ -19,11 +18,10 @@
             {/if});
             ">
         </div>
-        </a>
         <div class="product_top_inner">
 
 
-            <a href="{$id|url}"><div class="product-name">{$pagetitle}</div></a>
+            <div class="product-name">{$pagetitle}</div>
 
             <div class="product-article"><span>Артикул:</span> R053</div>
 
@@ -37,7 +35,7 @@
     <div class="product_bot_wrapper">
         <div class="product_bot_in">
             <div class="product_bot_left">
-                <a href="{$id|url}"><div class="product-name">{$pagetitle}</div></a>
+                <div class="product-name">{$pagetitle}</div>
             </div>
             <div class="product_bot_center">
                 <div class="product-article"><span>Артикул:</span> R053</div>
@@ -52,7 +50,7 @@
                     <div class="price-current">
                         <strong>{$price}</strong> <span class="rub_black"></span></div>
                 </div>
-                <div class="product_buttons">
+                <div class="product_buttons"> 
 
                     <div class="product-amount">
                         <div class="amount-title">Кол-во</div>
