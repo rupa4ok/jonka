@@ -2,11 +2,7 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-<<<<<<< HEAD
       <paths name="alikam">
-=======
-      <paths name="alikam.by">
->>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -24,17 +20,6 @@
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="jonka">
-        <serverdata>
-          <mappings>
-<<<<<<< HEAD
-            <mapping deploy="/public_html/core/elements" local="$PROJECT_DIR$" web="/" />
-=======
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
->>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
           </mappings>
         </serverdata>
       </paths>
@@ -59,16 +44,6 @@
           </mappings>
         </serverdata>
       </paths>
-<<<<<<< HEAD
-=======
-      <paths name="s15333">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
->>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
       <paths name="site18">
         <serverdata>
           <mappings>
