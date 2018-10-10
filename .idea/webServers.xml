@@ -2,8 +2,13 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
+<<<<<<< HEAD
       <webServer id="50553c2c-6134-41ef-b1ca-ac58a33f8250" name="jonka" url="http://gkmentor.beget.tech">
         <fileTransfer host="gkmentor.beget.tech" port="22" rootFolder="/home/g/gkmentor/jonka.ru" accessType="SFTP">
+=======
+      <webServer id="826b6c04-2832-4206-9048-444c0e2e74f1" name="jonka" url="http://s15765@h4.modhost.pro">
+        <fileTransfer host="s15765@h4.modhost.pro" port="22" rootFolder="/home/s15765/www/core/elements" accessType="SFTP">
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

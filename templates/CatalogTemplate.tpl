@@ -1,9 +1,14 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
+<<<<<<< HEAD
 
+=======
+11
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
 {block 'main'}
     <div class="site_container">
         <main role="main" class="site_main">
             <div class="site_main_inner">
+<<<<<<< HEAD
                 <!--<div class="site-path"><a href="magazin.html">Главная</a> <span></span> Роллы</div>-->
                 <h1>{$_modx->resource.pagetitle}</h1>
                 <div class="shop2-cookies-disabled shop2-warning hide"></div>
@@ -12,6 +17,16 @@
                 <!--<div class="shop_sorting_panel clear-self">
 
                     <div class="sort_bl_wr sorting">
+=======
+                <div class="site-path"><a href="magazin.html">Главная</a> <span></span> Роллы</div>
+                <h1>Роллы</h1>
+                <div class="shop2-cookies-disabled shop2-warning hide"></div>
+
+
+                <div class="shop_sorting_panel clear-self">
+
+                    <!--<div class="sort_bl_wr sorting">
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
                         <div class="sorting_in">
                             <div class="sort_bl_title">
                                 Сортировать:
@@ -33,7 +48,11 @@
                                 </div>
                             </div>
                         </div>
+<<<<<<< HEAD
                     </div>
+=======
+                    </div>-->
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
 
                     <div class="view-shop2">
                         <div class="view-shop-wrap">
@@ -49,7 +68,11 @@
                     <div class="filter_bl_wr">
                         <div class="filter_bg"></div>
                         <div class="filter_mobile_btn"></div>
+<<<<<<< HEAD
                         <div class="filter_block_top">
+=======
+                        <!--<div class="filter_block_top">
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
                             <div class="filter_block_title">Фильтр</div>
                             <div class="filter_close"></div>
                             <form action="rolly-i-sushi.html#" class="shop2-filter">
@@ -161,9 +184,15 @@
                                        class="shop2-btn filter_reset"><span>Сбросить</span></a>
                                 </div>
                             </form>
+<<<<<<< HEAD
                         </div>
                     </div>
                 </div>-->
+=======
+                        </div>-->
+                    </div>
+                </div>
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
 
                 <div class="prod_list_wrap">
                     <div class="product-list">
@@ -174,10 +203,18 @@
                             <div class="product_amount_title">Кол-во</div>
                         </div>
                         <div class="product_list_in product-list-thumbs ">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
                             {$_modx->runSnippet('!msProducts@PropertySet', [
                             'parents' => $_modx->resource.id,
                             'tpl' => '@FILE /chunks/catalog/tovar.tpl'
                             ])}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
                         </div>
                     </div>
                 </div>

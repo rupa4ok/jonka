@@ -2,7 +2,11 @@
 <html lang="ru" style="visibility: hidden;">
 <head>
     <meta charset="utf-8">
+<<<<<<< HEAD
     <base href="http://jonka.ru" />
+=======
+    <base href="http://s15765.h4.modhost.pro" />
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
     <meta name="robots" content="all">
     <title>Готовый интернет-магазин для заказа еды: создать, купить, разработать в компании Megagroup.ru</title>
     <meta name="description"

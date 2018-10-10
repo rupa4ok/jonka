@@ -6,6 +6,7 @@
         <div class="fixed_mobile_close"></div>
         <div class="mobile_cat_wrap">
 
+<<<<<<< HEAD
             {'!pdoMenu'|snippet:[
             'parents' => '2',
             'outerClass' => 'mobile_menu menu-default',
@@ -17,6 +18,26 @@
             'level' => '1'
             ]}
 
+=======
+
+            <ul class="mobile_menu menu-default">
+                <li class="sublevel"><a class="has_sublayer" href="rolly-i-sushi.html">Роллы11</a>
+                    <ul>
+                        <li class="parent-item"><a href="rolly-i-sushi.html">Роллы</a></li>
+                        <li><a href="klassicheskiye.html">Классические</a></li>
+                        <li><a href="tempura.html">Темпура</a></li>
+                        <li><a href="zapechenyye.html">Запеченные</a></li>
+                        <li><a href="originalnyye.html">Оригинальные</a></li>
+                        <li><a href="neobychnyye.html">Необычные</a></li>
+                        <li><a href="vegetarianskiye.html">Вегетарианские</a></li>
+                        <li><a href="sladkiye.html">Сладкие</a></li>
+                    </ul>
+                </li>
+                <li><a href="konverty.html">Конверты</a></li>
+                <li><a href="nabory.html">Наборы</a></li>
+                <li><a href="vse.html">Все</a></li>
+            </ul>
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
         </div>
     </div>
     <header role="banner" class="site_header">
@@ -30,6 +51,7 @@
                     'tpl' => '@INLINE <li[[+classes]]><a href="[[+link]]" [[+attributes]]>[[+menutitle]]</a>[[+wrapper]]</li>',
                     'tplOuter' => '@INLINE <ul[[+classes]]>[[+wrapper]]</ul>',
                     'parentClass' => 'tree',
+<<<<<<< HEAD
                     'levelClass' => 'level-2',
                     'resources' => '-2,-18',
                     'level' => '1'
@@ -37,6 +59,13 @@
 
                 </div>
                 <!--<div class="cab_block_wr">
+=======
+                    'levelClass' => 'level-2'
+                    ]}
+
+                </div>
+                <div class="cab_block_wr">
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
                     <div class="cab_icon"></div>
                     <div class="shop2-block login-form ">
                         <div class="block-title">
@@ -96,16 +125,25 @@
 
                         </div>
                     </div>
+<<<<<<< HEAD
                 </div>-->
             </div>
         </div>
         <div class="site_header_in">
             <div class="site_l_block"><a class="sn_logo" href="/"><img src="296883_2176.png" alt=""></a>
+=======
+                </div>
+            </div>
+        </div>
+        <div class="site_header_in">
+            <div class="site_l_block"><a class="sn_logo" href="magazin.html"><img src="296883_2176.png" alt=""></a>
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
                 <div class="site_l_wrap_in">
                     <div class="site_desc"><a href="magazin.html">Быстрая доставка еды по г. Якутску</a></div>
                 </div>
             </div>
             <div class="site_r_block  clear-self">
+<<<<<<< HEAD
                 <!--<div class="top_ed_bl">
                     <div class="top_bl_item"><a href="{$_modx->makeUrl(5)}"><span>Доставка</a></span></div>
                     <div class="top_bl_item"><a href="{$_modx->makeUrl(18)}"><span>Оплата</a></span></div>
@@ -116,22 +154,47 @@
                         <div class="site_address">[[++city]]</div>
                         <div class="site_phones">
                             <div><a href="tel:[[++phone]]">[[++phone]]</a></div>
+=======
+                <div class="top_ed_bl">
+                    <div class="top_bl_item"><a href="dostavka.html"><span>Доставка</a></span></div>
+                    <div class="top_bl_item"><a href="oplata.html"><span>Оплата</a></span></div>
+                    <div class="top_bl_item"><a href="aktsii.html"><span>Скидки и акции</a></span></div>
+                </div>
+                <div class="top_contacts_bl">
+                    <div class="top_contacts_in">
+                        <div class="site_address">г. Якутск</div>
+                        <div class="site_phones">
+                            <div><a href="tel:25-44-99">25-44-99</a></div>
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         <!--<div class="mobile_top_block">
             <div class="mobile_top_bl_in">
                 <div class="top_ed_bl">
                     <div class="top_bl_item"><a href="{$_modx->makeUrl(5)}"><span>Доставка</a></span></div>
                     <div class="top_bl_item"><a href="{$_modx->makeUrl(18)}"><span>Оплата</a></span></div>
                     <div class="top_bl_item"><a href="{$_modx->makeUrl(16)}"><span>Скидки и акции</a></span></div>
+=======
+        <div class="mobile_top_block">
+            <div class="mobile_top_bl_in">
+                <div class="top_ed_bl">
+                    <div class="top_bl_item"><a href="dostavka.html"><span>Доставка</a></span></div>
+                    <div class="top_bl_item"><a href="oplata.html"><span>Оплата</a></span></div>
+                    <div class="top_bl_item"><a href="aktsii.html"><span>Скидки и акции</a></span></div>
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
                 </div>
                 <div class="top_edit_block_link"><a href="http://jonka.ru/magazin/product/pitstsa-ovoshchnaya">Хит
                         недели</a></div>
             </div>
+<<<<<<< HEAD
         </div>-->
+=======
+        </div>
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
         <div class="fixed_panel_wrapper">
             <div class="fixed_panel_in">
                 <div class="fixed_panel_wrap">
@@ -161,11 +224,19 @@
                                                                                            onFocus="this.value=this.value=='Поиск по каталогу'?'':this.value;"
                                                                                            value="Поиск по каталогу"/><input
                                     type="submit" class="search-button" value=""/>
+<<<<<<< HEAD
                             <!--<div class="search2_icon"></div>
                             <div class="search3_icon"></div>-->
                         </form>
 
                         <!--<div class="shop2-block search-form ">
+=======
+                            <div class="search2_icon"></div>
+                            <div class="search3_icon"></div>
+                        </form>
+
+                        <div class="shop2-block search-form ">
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
                             <div class="block-title">
                                 <strong>Расширенный поиск</strong>
                                 <span>&nbsp;</span>
@@ -297,7 +368,11 @@
                                     </div>
                                 </form>
                             </div>
+<<<<<<< HEAD
                         </div> -->
+=======
+                        </div><!-- Search Form -->
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
                         <div class="site_shadow"></div>
                     </div>
                     <div class="cart_bl_wrap">

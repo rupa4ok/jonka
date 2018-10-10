@@ -1,4 +1,5 @@
 <footer role="contentinfo" class="site_footer">
+<<<<<<< HEAD
     <!--{set $id = $_modx->resource.id}
     {if $id == '1'}
     {else}
@@ -17,6 +18,21 @@
         </div>
     {/if}-->
 
+=======
+    <div class="map_bl_wrapper">
+        <div class="map_block">
+            <div class="map" id="map">
+                <div id="myMap" style="height: 100%;"></div>
+            </div>
+        </div>
+        <div class="map_bl_wrap">
+            <div class="map_contacts">
+                <div class="map_contacts_title">Наш адрес</div>
+                <div class="map_contacts_address">Россия, 125040, г. Якутск, Пушкина 23</div>
+            </div>
+        </div>
+    </div>
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
     <div class="site_footer_inner_wr">
         <div class="site_footer_inner">
             <div class="left_menu_wr">
@@ -31,11 +47,19 @@
                 ]}
 
             </div>
+<<<<<<< HEAD
             <!--<div class="bot_ed_bl">
                 <div class="bot_bl_item"><a href="dostavka.html"><span>Доставка</a></span></div>
                 <div class="bot_bl_item"><a href="oplata.html"><span>Оплата</a></span></div>
                 <div class="bot_bl_item"><a href="aktsii.html"><span>Скидки и акции</a></span></div>
             </div>-->
+=======
+            <div class="bot_ed_bl">
+                <div class="bot_bl_item"><a href="dostavka.html"><span>Доставка</a></span></div>
+                <div class="bot_bl_item"><a href="oplata.html"><span>Оплата</a></span></div>
+                <div class="bot_bl_item"><a href="aktsii.html"><span>Скидки и акции</a></span></div>
+            </div>
+>>>>>>> 6da621464431c50292b0d0fce9c413e177dc2926
             <div class="bot_contacts_bl">
                 <div class="bot_contacts_in">
                     <div class="site_address">г. Якутск</div>
