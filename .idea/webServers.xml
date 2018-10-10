@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="50553c2c-6134-41ef-b1ca-ac58a33f8250" name="jonka" url="http://gkmentor.beget.tech">
+        <fileTransfer host="gkmentor.beget.tech" port="22" rootFolder="/home/g/gkmentor/jonka.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
